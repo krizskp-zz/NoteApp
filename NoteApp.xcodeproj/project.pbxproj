@@ -111,11 +111,11 @@
 		5FF28461193FC85900D131AB /* NoteApp */ = {
 			isa = PBXGroup;
 			children = (
+				5FF2848A193FC89000D131AB /* Main.storyboard */,
 				5FF2846A193FC85900D131AB /* JKEAppDelegate.h */,
 				5FF2846B193FC85900D131AB /* JKEAppDelegate.m */,
 				5FF2846D193FC85900D131AB /* Images.xcassets */,
 				5FF28462193FC85900D131AB /* Supporting Files */,
-				5FF2848A193FC89000D131AB /* Main.storyboard */,
 			);
 			path = NoteApp;
 			sourceTree = "<group>";
