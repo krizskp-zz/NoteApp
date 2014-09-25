@@ -7,11 +7,20 @@
 //
 
 #import "JKEAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation JKEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	[Parse setApplicationId:@"mH5Y5fryYtBBzdZDzMM04iNafDnQqIPHxoe8vBOR"
+				  clientKey:@"qqjxdV9hlgIGv6t424norZgQ76DR88ByvKmD26ys"];
+	
+	// Testing framework
+	PFObject *testObj = [PFObject objectWithClassName:@"TestObject"];
+	testObj[@"foo"] = @"bar";
+	[testObj saveInBackground];
+	
     return YES;
 }
 

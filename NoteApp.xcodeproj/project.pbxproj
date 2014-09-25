@@ -32,6 +32,8 @@
 		75C1355819D3A69C00A17259 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355719D3A69C00A17259 /* Security.framework */; };
 		75C1355A19D3A6A700A17259 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355919D3A6A700A17259 /* StoreKit.framework */; };
 		75C1355C19D3A6AF00A17259 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355B19D3A6AF00A17259 /* SystemConfiguration.framework */; };
+		75C1355E19D3B4D800A17259 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355D19D3B4D800A17259 /* Bolts.framework */; };
+		75C1355F19D3B4D800A17259 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355D19D3B4D800A17259 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,7 @@
 		75C1355719D3A69C00A17259 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		75C1355919D3A6A700A17259 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		75C1355B19D3A6AF00A17259 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75C1355D19D3B4D800A17259 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Desktop/parse-library-1.4.0/Bolts.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 				5FF28460193FC85900D131AB /* UIKit.framework in Frameworks */,
 				75C1354919D3A5F400A17259 /* Parse.framework in Frameworks */,
 				5FF2845C193FC85900D131AB /* Foundation.framework in Frameworks */,
+				75C1355E19D3B4D800A17259 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C1355F19D3B4D800A17259 /* Bolts.framework in Frameworks */,
 				5FF28475193FC85A00D131AB /* XCTest.framework in Frameworks */,
 				5FF28477193FC85A00D131AB /* UIKit.framework in Frameworks */,
 				75C1354A19D3A5F400A17259 /* Parse.framework in Frameworks */,
@@ -132,6 +137,7 @@
 		5FF2845A193FC85900D131AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75C1355D19D3B4D800A17259 /* Bolts.framework */,
 				75C1355B19D3A6AF00A17259 /* SystemConfiguration.framework */,
 				75C1355919D3A6A700A17259 /* StoreKit.framework */,
 				75C1355719D3A69C00A17259 /* Security.framework */,
@@ -411,6 +417,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/shalvin/Desktop/parse-library-1.4.0",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
@@ -428,6 +435,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/shalvin/Desktop/parse-library-1.4.0",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
@@ -446,6 +454,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
+					"/Users/shalvin/Desktop/parse-library-1.4.0",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
@@ -469,6 +478,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)",
+					"/Users/shalvin/Desktop/parse-library-1.4.0",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
