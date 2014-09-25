@@ -6,13 +6,14 @@
 //  Copyright (c) 2014 Joyce Echessa. All rights reserved.
 //
 
-#import "JKENoteslistViewController.h"
+#import "JKENotesListViewController.h"
+#import "JKENotesViewController.h"
 
-@interface JKENoteslistViewController ()
+@interface JKENotesListViewController ()
 
 @end
 
-@implementation JKENoteslistViewController
+@implementation JKENotesListViewController
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
 	self = [super initWithClassName:@"Post"];
@@ -47,6 +48,11 @@
 	// self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	[self loadObjects];
+}
+
 #pragma mark - PFQueryTableViewController
 
 // Override to customize the look of a cell representing an object. The default is to display
@@ -77,6 +83,16 @@
 
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+	if ([segue.identifier isEqualToString:@"showNote"]) {
+		NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+		PFObject *object = [self.objects objectAtIndex:indexPath.row];
+		
+		JKENotesViewController *note = (JKENotesViewController *)segue.destinationViewController;
+		note.note = object;
+	}
 }
 
 @end

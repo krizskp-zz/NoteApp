@@ -36,6 +36,8 @@
 		75C1355F19D3B4D800A17259 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355D19D3B4D800A17259 /* Bolts.framework */; };
 		75C1356219D3B9D900A17259 /* JKENoteslistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1356119D3B9D900A17259 /* JKENoteslistViewController.m */; };
 		75C1356319D3B9D900A17259 /* JKENoteslistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1356119D3B9D900A17259 /* JKENoteslistViewController.m */; };
+		75C1356619D3C87000A17259 /* JKENotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1356519D3C87000A17259 /* JKENotesViewController.m */; };
+		75C1356719D3C87000A17259 /* JKENotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C1356519D3C87000A17259 /* JKENotesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		75C1355D19D3B4D800A17259 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Desktop/parse-library-1.4.0/Bolts.framework"; sourceTree = "<group>"; };
 		75C1356019D3B9D900A17259 /* JKENoteslistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKENoteslistViewController.h; sourceTree = "<group>"; };
 		75C1356119D3B9D900A17259 /* JKENoteslistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKENoteslistViewController.m; sourceTree = "<group>"; };
+		75C1356419D3C87000A17259 /* JKENotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKENotesViewController.h; sourceTree = "<group>"; };
+		75C1356519D3C87000A17259 /* JKENotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKENotesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				5FF2848A193FC89000D131AB /* Main.storyboard */,
+				75C1356419D3C87000A17259 /* JKENotesViewController.h */,
+				75C1356519D3C87000A17259 /* JKENotesViewController.m */,
 				5FF2846A193FC85900D131AB /* JKEAppDelegate.h */,
 				5FF2846B193FC85900D131AB /* JKEAppDelegate.m */,
 				75C1356019D3B9D900A17259 /* JKENoteslistViewController.h */,
@@ -303,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF28468193FC85900D131AB /* main.m in Sources */,
+				75C1356619D3C87000A17259 /* JKENotesViewController.m in Sources */,
 				5FF2846C193FC85900D131AB /* JKEAppDelegate.m in Sources */,
 				75C1356219D3B9D900A17259 /* JKENoteslistViewController.m in Sources */,
 			);
@@ -312,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C1356719D3C87000A17259 /* JKENotesViewController.m in Sources */,
 				5FF28481193FC85A00D131AB /* NoteAppTests.m in Sources */,
 				75C1356319D3B9D900A17259 /* JKENoteslistViewController.m in Sources */,
 			);
