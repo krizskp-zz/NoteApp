@@ -21,6 +21,17 @@
 		5FF28481193FC85A00D131AB /* NoteAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF28480193FC85A00D131AB /* NoteAppTests.m */; };
 		5FF2848B193FC89000D131AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF2848A193FC89000D131AB /* Main.storyboard */; };
 		5FF284F419417AF600D131AB /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF284F319417AF600D131AB /* note.png */; };
+		75C1354919D3A5F400A17259 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354819D3A5F400A17259 /* Parse.framework */; };
+		75C1354A19D3A5F400A17259 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354819D3A5F400A17259 /* Parse.framework */; };
+		75C1354C19D3A64200A17259 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354B19D3A64200A17259 /* AudioToolbox.framework */; };
+		75C1354E19D3A64700A17259 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354D19D3A64700A17259 /* CFNetwork.framework */; };
+		75C1355019D3A66400A17259 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354F19D3A66400A17259 /* CoreLocation.framework */; };
+		75C1355219D3A67F00A17259 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355119D3A67F00A17259 /* libz.dylib */; };
+		75C1355419D3A68600A17259 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355319D3A68600A17259 /* MobileCoreServices.framework */; };
+		75C1355619D3A69500A17259 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355519D3A69500A17259 /* QuartzCore.framework */; };
+		75C1355819D3A69C00A17259 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355719D3A69C00A17259 /* Security.framework */; };
+		75C1355A19D3A6A700A17259 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355919D3A6A700A17259 /* StoreKit.framework */; };
+		75C1355C19D3A6AF00A17259 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1355B19D3A6AF00A17259 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +63,16 @@
 		5FF28480193FC85A00D131AB /* NoteAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteAppTests.m; sourceTree = "<group>"; };
 		5FF2848A193FC89000D131AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5FF284F319417AF600D131AB /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		75C1354819D3A5F400A17259 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		75C1354B19D3A64200A17259 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		75C1354D19D3A64700A17259 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		75C1354F19D3A66400A17259 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75C1355119D3A67F00A17259 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		75C1355319D3A68600A17259 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		75C1355519D3A69500A17259 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75C1355719D3A69C00A17259 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		75C1355919D3A6A700A17259 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		75C1355B19D3A6AF00A17259 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +80,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C1355C19D3A6AF00A17259 /* SystemConfiguration.framework in Frameworks */,
+				75C1355A19D3A6A700A17259 /* StoreKit.framework in Frameworks */,
+				75C1355819D3A69C00A17259 /* Security.framework in Frameworks */,
+				75C1355619D3A69500A17259 /* QuartzCore.framework in Frameworks */,
+				75C1355419D3A68600A17259 /* MobileCoreServices.framework in Frameworks */,
+				75C1355219D3A67F00A17259 /* libz.dylib in Frameworks */,
+				75C1355019D3A66400A17259 /* CoreLocation.framework in Frameworks */,
 				5FF2845E193FC85900D131AB /* CoreGraphics.framework in Frameworks */,
+				75C1354E19D3A64700A17259 /* CFNetwork.framework in Frameworks */,
+				75C1354C19D3A64200A17259 /* AudioToolbox.framework in Frameworks */,
 				5FF28460193FC85900D131AB /* UIKit.framework in Frameworks */,
+				75C1354919D3A5F400A17259 /* Parse.framework in Frameworks */,
 				5FF2845C193FC85900D131AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +102,7 @@
 			files = (
 				5FF28475193FC85A00D131AB /* XCTest.framework in Frameworks */,
 				5FF28477193FC85A00D131AB /* UIKit.framework in Frameworks */,
+				75C1354A19D3A5F400A17259 /* Parse.framework in Frameworks */,
 				5FF28476193FC85A00D131AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +132,16 @@
 		5FF2845A193FC85900D131AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75C1355B19D3A6AF00A17259 /* SystemConfiguration.framework */,
+				75C1355919D3A6A700A17259 /* StoreKit.framework */,
+				75C1355719D3A69C00A17259 /* Security.framework */,
+				75C1355519D3A69500A17259 /* QuartzCore.framework */,
+				75C1355319D3A68600A17259 /* MobileCoreServices.framework */,
+				75C1355119D3A67F00A17259 /* libz.dylib */,
+				75C1354F19D3A66400A17259 /* CoreLocation.framework */,
+				75C1354D19D3A64700A17259 /* CFNetwork.framework */,
+				75C1354B19D3A64200A17259 /* AudioToolbox.framework */,
+				75C1354819D3A5F400A17259 /* Parse.framework */,
 				5FF2845B193FC85900D131AB /* Foundation.framework */,
 				5FF2845D193FC85900D131AB /* CoreGraphics.framework */,
 				5FF2845F193FC85900D131AB /* UIKit.framework */,
@@ -366,6 +408,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
 				INFOPLIST_FILE = "NoteApp/NoteApp-Info.plist";
@@ -379,6 +425,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
 				INFOPLIST_FILE = "NoteApp/NoteApp-Info.plist";
@@ -395,6 +445,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
@@ -417,6 +468,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoteApp/NoteApp-Prefix.pch";
