@@ -9,3 +9,6 @@ Original project source can be found at https://github.com/sitepoint-examples/pa
 
 Frameworks:
 - Parse Library 1.4.0
+
+IDE:
+- Xcode 5.1.1
