@@ -21,6 +21,7 @@
 		5FF28481193FC85A00D131AB /* NoteAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF28480193FC85A00D131AB /* NoteAppTests.m */; };
 		5FF2848B193FC89000D131AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF2848A193FC89000D131AB /* Main.storyboard */; };
 		5FF284F419417AF600D131AB /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FF284F319417AF600D131AB /* note.png */; };
+		756EEF5719D4C2B70015EAD0 /* JKELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756EEF5619D4C2B70015EAD0 /* JKELoginViewController.m */; };
 		75C1354919D3A5F400A17259 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354819D3A5F400A17259 /* Parse.framework */; };
 		75C1354A19D3A5F400A17259 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354819D3A5F400A17259 /* Parse.framework */; };
 		75C1354C19D3A64200A17259 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1354B19D3A64200A17259 /* AudioToolbox.framework */; };
@@ -69,6 +70,8 @@
 		5FF28480193FC85A00D131AB /* NoteAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteAppTests.m; sourceTree = "<group>"; };
 		5FF2848A193FC89000D131AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5FF284F319417AF600D131AB /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		756EEF5519D4C2B70015EAD0 /* JKELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKELoginViewController.h; sourceTree = "<group>"; };
+		756EEF5619D4C2B70015EAD0 /* JKELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKELoginViewController.m; sourceTree = "<group>"; };
 		75C1354819D3A5F400A17259 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		75C1354B19D3A64200A17259 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		75C1354D19D3A64700A17259 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -174,6 +177,8 @@
 				5FF2846B193FC85900D131AB /* JKEAppDelegate.m */,
 				75C1356019D3B9D900A17259 /* JKENoteslistViewController.h */,
 				75C1356119D3B9D900A17259 /* JKENoteslistViewController.m */,
+				756EEF5519D4C2B70015EAD0 /* JKELoginViewController.h */,
+				756EEF5619D4C2B70015EAD0 /* JKELoginViewController.m */,
 				5FF2846D193FC85900D131AB /* Images.xcassets */,
 				5FF28462193FC85900D131AB /* Supporting Files */,
 			);
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF28468193FC85900D131AB /* main.m in Sources */,
+				756EEF5719D4C2B70015EAD0 /* JKELoginViewController.m in Sources */,
 				75C1356619D3C87000A17259 /* JKENotesViewController.m in Sources */,
 				5FF2846C193FC85900D131AB /* JKEAppDelegate.m in Sources */,
 				75C1356219D3B9D900A17259 /* JKENoteslistViewController.m in Sources */,
