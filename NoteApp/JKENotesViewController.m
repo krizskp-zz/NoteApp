@@ -7,6 +7,7 @@
 //
 
 #import "JKENotesViewController.h"
+#import <Parse/Parse.h>
 
 @interface JKENotesViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
@@ -48,6 +49,7 @@
 	PFObject *newNote = [PFObject objectWithClassName:@"Post"];
 	newNote[@"title"] = self.titleTextField.text;
 	newNote[@"content"] = self.contentTextView.text;
+	newNote[@"author"] = [PFUser currentUser];
 	
 	[newNote saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
 		if (succeeded) {
