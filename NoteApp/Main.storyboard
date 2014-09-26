@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="535" y="-625"/>
         </scene>
-        <!--View Controller - My Notes-->
+        <!--Signup View Controller - My Notes-->
         <scene sceneID="rPb-tf-dOI">
             <objects>
-                <viewController id="DSZ-5x-a2c" sceneMemberID="viewController">
+                <viewController id="DSZ-5x-a2c" customClass="JKESignupViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8WQ-6M-rIi"/>
                         <viewControllerLayoutGuide type="bottom" id="rFK-wS-oxx"/>
@@ -104,11 +104,19 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signup:" destination="DSZ-5x-a2c" eventType="touchUpInside" id="m2z-bv-9Er"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="My Notes" id="nCX-nL-v8s"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="108-Xs-9xo" id="kcn-ZC-Flk"/>
+                        <outlet property="passwordTextField" destination="bPv-9o-b8h" id="lpk-3W-yaT"/>
+                        <outlet property="usernameTextField" destination="2ap-nF-KDG" id="jqG-9Q-q9F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jYm-zw-bXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
