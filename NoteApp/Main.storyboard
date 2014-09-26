@@ -165,7 +165,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My Notes" id="Z4P-Tw-GmJ">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" id="2zg-cW-kZv"/>
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="2zg-cW-kZv">
+                            <connections>
+                                <action selector="logout:" destination="fCP-Ea-5rE" id="lsC-OC-xtY"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="6EJ-9k-yQ9">
                             <connections>
                                 <segue destination="b18-tV-aNQ" kind="push" identifier="addNote" id="2qs-TO-W7i"/>
